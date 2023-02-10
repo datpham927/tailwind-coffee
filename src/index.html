@@ -7,16 +7,63 @@
 </head>
 <body>
     <div id="root">
-        <div class="container">
+        <div class="wrapper">
                <div class="relative w-full h-[600px]  bg-[url('https://coffee-style-trungquandev.web.app/img/slider-bg.jpeg')] bg-cover bg-no-repeat bg-bottom" >
                     <div class="absolute w-full h-full text-center items-center text-white  flex justify-center flex-col">
                         <h3>BEST PLACE TO BUY COFFEE</h3>
                         <h3 class="text-5xl my-6 font-medium">Coffee Mugs</h3>
                         <h3 class="font-semibold text-xl">The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</h3>
-                        <button class=" px-10 py-4  font-semibold  bg-white text-xs uppercase text-zinc-900 mt-10 hover:opacity-95">  Explore Our Products  </button>
+                        <button class=" px-10 py-4  font-semibold  bg-white text-xs uppercase text-zinc-900 mt-10 hover:opacity-95 cursor-pointer">  Explore Our Products  </button>
                     </div>
-
                 <div class="absolute bottom-9 right-10 text-orange-200 py-1 after:absolute after:w-0 after:h-px  after:bottom-0  after:right-0  after:bg-pink-400 hover:after:w-full after:duration-500">Read the full Story</div>
+              </div>
+
+              <div class="w-full flex flex-col  items-center">
+                  <div class="flex items-center text-center my-6 ">
+                      <div class="hdc-line"></div>
+                      <div class="text-gray-600 text-xs font-medium">FEATURED MUGS</div>
+                      <div class="hdc-line"></div>
+                  </div>
+
+                  <di class="w-[65%]">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
+                            <div class="item-feature relative group">
+                              <div class=" relative h-[400px] lg:h-[450px]   bg-[url('https://coffee-style-trungquandev.web.app/img/featured-mug-01.jpg')] bg-cover bg-no-repeat bg-center">
+                                 <div class=" w-full h-full bg-black  opacity-10 hidden  group-hover:block "></div>
+                                      <div class=" hdc-button absolute top-[10px] right-[10px] px-4 py-2   text-amber-500  text-xs">On Sale</div>
+                                      <div class=" hdc-button absolute bottom-[10px] left-[50%] translate-x-[-50%] px-4 py-2    text-amber-500  text-base w-[90%] hidden  group-hover:block  group-hover:animate-fadeIn">Explore mug</div>
+                                 </div>
+                                 <div class="text-center my-4">
+                                    <h3>
+                                      Pink Premium Ceramic
+                                    </h3>
+                                   <div class="">
+                                     <span class="text-xs text-stone-400 font-medium">$99.00 USD</span>
+                                    </div >
+                                </div> 
+                           </div>  
+
+                           <div class="item-feature relative group">
+                            <div class=" relative h-[400px] lg:h-[450px]   bg-[url('https://coffee-style-trungquandev.web.app/img/featured-mug-01.jpg')] bg-cover bg-no-repeat bg-center">
+                               <div class=" w-full h-full bg-black  opacity-10 hidden  group-hover:block "></div>
+                                    <div class=" hdc-button absolute top-[10px] right-[10px] px-4 py-2   text-amber-500  text-xs">On Sale</div>
+                                    <div class=" hdc-button absolute bottom-[10px] left-[50%] translate-x-[-50%] px-4 py-2    text-amber-500  text-base w-[90%] hidden  group-hover:block  group-hover:animate-fadeIn">Explore mug</div>
+                               </div>
+                               <div class="text-center my-4">
+                                  <h3>
+                                    Pink Premium Ceramic
+                                  </h3>
+                                 <div class="">
+                                  <span class="text-sm text-pink-500 font-medium mr-1">$100.00</span>
+                                   <span class="text-xs text-stone-400 line-through font-medium">$99.00 USD</span>
+                                  </div >
+                              </div> 
+                         </div>   
+                         
+                  </div>     
+                  
+                    </div>
+                  </di >
               </div>
             </div>
     </div>

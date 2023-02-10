@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.hdc-line{
+    @apply w-8 h-[1px] bg-zinc-400 mx-4
+}
+
+.hdc-button{
+    @apply  bg-white font-medium  text-center items-center  cursor-pointer
+}
